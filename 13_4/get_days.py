@@ -8,3 +8,10 @@ def get_days(month):
         return 28
     else:
         return 'Вы ошиблись, такого месяца нет!'
+
+
+# считываем данные
+num = int(input())
+
+# вызываем функцию
+print(get_days(num))
